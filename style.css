@@ -77,6 +77,7 @@ button {
     color: #F9FAF8;
     border-radius: 6px;
     margin-top: 5px;
+    font-weight: bold;
 }
 
 .information h1 {
@@ -134,4 +135,28 @@ button {
     font-weight: 800;
     font-size: 25px;
     margin-left: auto;
+}
+
+.container {
+    padding: 100px 150px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+.call h1 {
+    margin: 0;
+}
+
+.button {
+    height: 30px;
+    border: 2px solid #E5E7EB;
+    padding: 0 20px;
 }
