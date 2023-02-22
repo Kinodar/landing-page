@@ -63,7 +63,8 @@ a {
 .header-links {
     display: flex;
     padding: 8px;
-    gap: 10px;
+    gap: 20px;
+    align-items: flex-end;
 }
 
 .hero {
