@@ -4,7 +4,6 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
-    justify-content: space-between;
 }
 
 .hero-image {
@@ -77,4 +76,41 @@ button {
     color: #F9FAF8;
     border-radius: 6px;
     margin-top: 5px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.img-holder {
+    border: 2px solid #3882f6;
+    width: 130px;
+    height: 130px;
+    border-radius: 6px;
+}
+
+.text {
+    width: 130px;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 100px;
 }
